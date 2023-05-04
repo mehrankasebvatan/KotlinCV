@@ -1,0 +1,14 @@
+site:
+  title: "Mehran Kasebvatan CV"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/cv.js"
+      api: "build/libs/cv.jar"
+    prod:
+      script: "build/distributions/cv.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
